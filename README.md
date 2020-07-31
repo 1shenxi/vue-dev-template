@@ -1,29 +1,19 @@
 # vue-dev-template
+- 开发模式
+- 目录
 
-## Project setup
-```
-yarn install
-```
+## 1. 开发模式
+- 本项目愿景采用 `TDD` 开发模式。
+- 本项目采用 `jsx` 的语法开发。
+- 本项目众多目录采用扫描自动化引入的方式。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 2. 目录
+- assets `资产`
+- children `含有业务的组件(做个页面用到，并具有统一逻辑)`
+- components `抽象出来的无业务的纯组件(方便后面封装)`
+- layout `SPA 的页面起始分层`
+- plugins `对项目自动化处理的一些工具`
+- router `路由`
+- store `状态管理`
+- views `页面`
+- main.js `主入口`
