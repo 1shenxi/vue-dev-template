@@ -1,5 +1,9 @@
 export default {
   render() {
-    return <div>footer</div>;
+    return (
+      <footer class="v-footer">
+        <div class="context-wrap v-footer-wrap">footer</div>
+      </footer>
+    );
   },
 };

@@ -1,0 +1,14 @@
+@import '../assets/style/var';
+@import '../assets/style/mixins';
+
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  @include flexbox(column, flex-start);
+}
+
+.v-main {
+  width: $--context-width;
+  flex: 1;
+}

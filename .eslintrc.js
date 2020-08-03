@@ -16,6 +16,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'no-shadow': 0,
     'no-param-reassign': 0,
+    'import/no-unresolved': 0,
   },
   overrides: [
     {

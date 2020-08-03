@@ -1,10 +1,18 @@
 @import "~normalize.css";
+@import "./var";
+@import "./mixins";
 
 * {
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
+  height: 100%;
+}
+
+.context-wrap { 
+  width: $--context-width;
+  margin: 0 auto;
   height: 100%;
 }

@@ -18,8 +18,9 @@ export default {
       <div id="app" class="app">
         <v-header></v-header>
         <v-nav></v-nav>
-        <router-link to="/">Home</router-link> |<router-link to="/about">About</router-link>
-        <router-view></router-view>
+        <main class="v-main">
+          <router-view></router-view>
+        </main>
         <v-footer></v-footer>
       </div>
     );
